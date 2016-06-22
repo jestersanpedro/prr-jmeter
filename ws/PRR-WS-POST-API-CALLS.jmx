@@ -26,20 +26,20 @@
         <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create User" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create User" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-    &quot;emailAddress&quot;  : &quot;${emailAddress}&quot;,&#xd;
+    &quot;emailAddress&quot;  : &quot;${email_address}&quot;,&#xd;
     &quot;password&quot;      : &quot;${password}&quot;,&#xd;
-    &quot;firstName&quot;     : &quot;${firstName}&quot;,&#xd;
-    &quot;lastName&quot;      : &quot;${last}&quot;,&#xd;
-    &quot;phoneNumber&quot;   : &quot;${phoneNumber}&quot;,&#xd;
-    &quot;allowMarketing&quot; : &quot;${allowMarketing}&quot;,&#xd;
-    &quot;userType&quot;      : &quot;${userType}&quot;,&#xd;
+    &quot;firstName&quot;     : &quot;${first_name}&quot;,&#xd;
+    &quot;lastName&quot;      : &quot;${last_name}&quot;,&#xd;
+    &quot;phoneNumber&quot;   : &quot;${phone_number}&quot;,&#xd;
+    &quot;allowMarketing&quot; : &quot;${allow_marketing}&quot;,&#xd;
+    &quot;userType&quot;      : &quot;${user_type}&quot;,&#xd;
     &quot;source&quot;        : &quot;${source}&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
@@ -63,34 +63,34 @@
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Create Supplier Data Set" enabled="true">
-            <stringProp name="delimiter">,</stringProp>
+          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Create User Data Set" enabled="true">
+            <stringProp name="filename">csv/user-data-set.csv</stringProp>
             <stringProp name="fileEncoding"></stringProp>
-            <stringProp name="filename">csv/login-data-set.csv</stringProp>
+            <stringProp name="variableNames"></stringProp>
+            <stringProp name="delimiter">,</stringProp>
             <boolProp name="quotedData">false</boolProp>
             <boolProp name="recycle">true</boolProp>
-            <stringProp name="shareMode">shareMode.all</stringProp>
             <boolProp name="stopThread">false</boolProp>
-            <stringProp name="variableNames"></stringProp>
+            <stringProp name="shareMode">shareMode.all</stringProp>
           </CSVDataSet>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Login User" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Login User" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-    &quot;emailAddress&quot;  : &quot;${username}&quot;,&#xd;
+    &quot;emailAddress&quot;  : &quot;${email_address}&quot;,&#xd;
     &quot;password&quot;      : &quot;${password}&quot;,&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">local.prr.com</stringProp>
-          <stringProp name="HTTPSampler.port">38580</stringProp>
+          <stringProp name="HTTPSampler.domain"></stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
@@ -106,38 +106,35 @@
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Login Data Set" enabled="true">
-            <stringProp name="delimiter">,</stringProp>
+          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Login User Data Set" enabled="true">
+            <stringProp name="filename">csv/user-data-set.csv</stringProp>
             <stringProp name="fileEncoding"></stringProp>
-            <stringProp name="filename">csv/login-data-set.csv</stringProp>
+            <stringProp name="variableNames"></stringProp>
+            <stringProp name="delimiter">,</stringProp>
             <boolProp name="quotedData">false</boolProp>
             <boolProp name="recycle">true</boolProp>
-            <stringProp name="shareMode">shareMode.all</stringProp>
             <boolProp name="stopThread">false</boolProp>
-            <stringProp name="variableNames"></stringProp>
+            <stringProp name="shareMode">shareMode.all</stringProp>
           </CSVDataSet>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create Supplier" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create Supplier" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-    &quot;name&quot; : &quot;${name}&quot;,&#xd;
+    &quot;name&quot; : &quot;${business_name}&quot;,&#xd;
     &quot;website&quot; : &quot;${website}&quot;,&#xd;
-    &quot;emailAddress&quot; : &quot;${email_address}&quot;,&#xd;
-    &quot;description&quot; : &quot;${description}&quot;,&#xd;
+    &quot;emailAddress&quot; : &quot;${email_address}&quot;&#xd;
     &quot;phoneNumber&quot; : &quot;${phone_number}&quot;,&#xd;
-    &quot;abnAcn&quot; : &quot;${abn_acn}&quot;,&#xd;
-    &quot;languages&quot; : &quot;${languages}&quot;,&#xd;
     &quot;resaleModel&quot; : &quot;${resale_model}&quot;,&#xd;
     &quot;serviceArea&quot; : {&#xd;
-        &quot;postcodes&quot;:[&quot;${postcodes}&quot;],&#xd;
-        &quot;suburbs&quot;:[&quot;${suburbs}&quot;]&#xd;
+        &quot;postcodes&quot;:[&quot;${postcode}&quot;],&#xd;
+        &quot;suburbs&quot;:[&quot;${suburb}&quot;]&#xd;
     },&#xd;
-    &quot;servicesOffered&quot; : [&quot;${services_offered}&quot;],&#xd;
+    &quot;servicesOffered&quot; : [&quot;${service}&quot;],&#xd;
     &quot;startingPrice&quot; : &quot;${starting_price}&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
@@ -164,7 +161,7 @@
           <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Create Supplier Data Set" enabled="true">
             <stringProp name="delimiter">,</stringProp>
             <stringProp name="fileEncoding"></stringProp>
-            <stringProp name="filename">csv/login-data-set.csv</stringProp>
+            <stringProp name="filename">csv/user-data-set.csv</stringProp>
             <boolProp name="quotedData">false</boolProp>
             <boolProp name="recycle">true</boolProp>
             <stringProp name="shareMode">shareMode.all</stringProp>
@@ -173,7 +170,7 @@
           </CSVDataSet>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Add Report" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Add Report" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -254,9 +251,10 @@
           <stringProp name="HTTPSampler.port">38580</stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
-          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.protocol">http</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path"></stringProp>
+          <stringProp name="HTTPSampler.implementation">HttpClient4</stringProp>
           <stringProp name="HTTPSampler.concurrentPool">4</stringProp>
         </ConfigTestElement>
         <hashTree/>
