@@ -1,51 +1,51 @@
-email_address,bussiness_name,address,suburb,postcode,state,service
-tr_testSupplier01@yopmail.com,Supplier01,51 Akoonah Way,D'Aguila,4514,QLD,pest
-tr_testSupplier02@yopmail.com,Supplier02,13-21 Cash Street ,D'Aguila,4514,QLD,pest
-tr_testSupplier03@yopmail.com,Supplier03,1849-1867 Wood Street,D'Aguila,4514,QLD,pest
-tr_testSupplier04@yopmail.com,Supplier04,10 Acacia Avenue ,Surfers Paradise,4217,QLD,pest
-tr_testSupplier05@yopmail.com,Supplier05,53 Burra Street ,Surfers Paradise,4217,QLD,pest
-tr_testSupplier06@yopmail.com,Supplier06,36 Elliott Street ,Surfers Paradise,4217,QLD,pest
-tr_testSupplier07@yopmail.com,Supplier07,68 Admiralty Drive ,Surfers Paradise,4217,QLD,pest
-tr_testSupplier08@yopmail.com,Supplier08,20 Brindisi Avenue ,Surfers Paradise,4217,QLD,pest
-tr_testSupplier09@yopmail.com,Supplier09,LOT28 Camille Drive ,Strathdickie,4800,QLD,pest
-tr_testSupplier10@yopmail.com,Supplier10,875 Gregory-Cannonvalley Road ,Strathdickie,4800,QLD,pest
-tr_testSupplier11@yopmail.com,Supplier11,845 Gregory-Cannonvalley Road ,Strathdickie,4800,QLD,pest
-tr_testSupplier12@yopmail.com,Supplier12,44 Mountney Road ,Strathdickie,4800,QLD,pest
-tr_testSupplier13@yopmail.com,Supplier13,34 Discovery Street,Red Hill,2603,ACT,building
-tr_testSupplier14@yopmail.com,Supplier14,18 Alexander Street ,Red Hill,2603,ACT,building
-tr_testSupplier15@yopmail.com,Supplier15,21-31 Beagle Street ,Red Hill,2603,ACT,building
-tr_testSupplier16@yopmail.com,Supplier16,49 Beagle Street,Red Hill,2603,ACT,building
-tr_testSupplier17@yopmail.com,Supplier17,2/49 Beagle Street ,Red Hill,2603,ACT,building
-tr_testSupplier18@yopmail.com,Supplier18,9 Borrowdale Street ,Red Hill,2603,ACT,building
-tr_testSupplier19@yopmail.com,Supplier19,1 Abbott Street ,Yarralumla,2600,ACT,building
-tr_testSupplier20@yopmail.com,Supplier20,1A Arkana Street ,Yarralumla,2600,ACT,building
-tr_testSupplier21@yopmail.com,Supplier21,3B Arkana Street ,Yarralumla,2600,ACT,building
-tr_testSupplier22@yopmail.com,Supplier22,2/12B Banks Street,Yarralumla,2600,ACT,building
-tr_testSupplier23@yopmail.com,Supplier23,9 Bentham Street ,Yarralumla,2600,ACT,building
-tr_testSupplier24@yopmail.com,Supplier24,11 Bentham Street ,Yarralumla,2600,ACT,building
-tr_testSupplier25@yopmail.com,Supplier25,3L/18 Bentham Street ,Yarralumla,2600,ACT,building
-tr_testSupplier26@yopmail.com,Supplier26,3A/29 Bentham Street,Yarralumla,2600,ACT,building
-tr_testSupplier27@yopmail.com,Supplier27,5/43B Bentham Street ,Yarralumla,2600,ACT,building
-tr_testSupplier28@yopmail.com,Supplier28,43B Bentham Street ,Yarralumla,2600,ACT,building
-tr_testSupplier29@yopmail.com,Supplier29,9 Cambage Street,Yarralumla,2600,ACT,building
-tr_testSupplier30@yopmail.com,Supplier30,9A Cambage Street ,Yarralumla,2600,ACT,building
-tr_testSupplier31@yopmail.com,Supplier31,1/9B Cambage Street ,Yarralumla,2600,ACT,building
-tr_testSupplier32@yopmail.com,Supplier32,2/1-7 Bougainville Street ,Griffith,2603,ACT,building
-tr_testSupplier33@yopmail.com,Supplier33,18 Packsaddle Road ,Marlow Lagoon,830,NT,strata
-tr_testSupplier34@yopmail.com,Supplier34,6 Flockhart Drive ,Marlow Lagoon,830,NT,strata
-tr_testSupplier35@yopmail.com,Supplier35,18 Campfire Court ,Marlow Lagoon,830,NT,strata
-tr_testSupplier36@yopmail.com,Supplier36,3/12A A'beckett Street ,Prahran,3181,VIC,pool
-tr_testSupplier37@yopmail.com,Supplier37,5/19 & 21 Leach Highway,Wilson,6107,WA,strata
-tr_testSupplier38@yopmail.com,Supplier38,19 & 21 Leach Highway,Wilson,6107,WA,strata
-tr_testSupplier39@yopmail.com,Supplier39,1/88 Kirkland Avenue ,Coorparoo,4151,QLD,pest
-tr_testSupplier40@yopmail.com,Supplier40,1 O'Brien Street ,Charlestown,2290,NSW,strata
-tr_testSupplier41@yopmail.com,Supplier41,2 Anembo Street,O'Sullivan Beach,5166,SA,strata
-tr_testSupplier42@yopmail.com,Supplier42,10 Anembo Street,O'Sullivan Beach,5166,SA,strata
-tr_testSupplier43@yopmail.com,Supplier43,6A D'Estrees Bay Road,D'Estrees,5223,SA,strata
-tr_testSupplier44@yopmail.com,Supplier44,78 Eighth Avenue ,Joslin,5070,SA,strata
-tr_testSupplier45@yopmail.com,Supplier45,1/88 Eighth Avenue  ,Joslin,5070,SA,strata
-tr_testSupplier46@yopmail.com,Supplier46,4/88 Eighth Avenue  ,Joslin,5070,SA,strata
-tr_testSupplier47@yopmail.com,Supplier47,2/88 Eighth Avenue  ,Joslin,5070,SA,strata
-tr_testSupplier48@yopmail.com,Supplier48,3/88 Eighth Avenue ,Joslin,5070,SA,strata
-tr_testSupplier49@yopmail.com,Supplier49,2 Acacia Grove ,East Devonport ,7310,TAS,pool
-tr_testSupplier50@yopmail.com,Supplier50,62 Bel-Air Crescent ,East Devonport ,7310,TAS,pool
+email_address,bussiness_name,address,suburb,postcode,state,service,starting_price,resale_model,website,phone_number
+tr_testSupplier01@yopmail.com,Supplier01,51 Akoonah Way,D'Aguila QLD 4514,QLD 4514,QLD,pest,120.59,Rebate,www.tr_test_supplier.com,1112223334
+tr_testSupplier02@yopmail.com,Supplier02,13-21 Cash Street ,D'Aguila QLD 4514,QLD 4514,QLD,pest,121.59,Rebate,www.tr_test_supplier.com,1112223335
+tr_testSupplier03@yopmail.com,Supplier03,1849-1867 Wood Street,D'Aguila QLD 4514,QLD 4514,QLD,pest,122.59,Rebate,www.tr_test_supplier.com,1112223336
+tr_testSupplier04@yopmail.com,Supplier04,10 Acacia Avenue ,Surfers Paradise QLD 4217,QLD 4217,QLD,pest,123.59,Rebate,www.tr_test_supplier.com,1112223337
+tr_testSupplier05@yopmail.com,Supplier05,53 Burra Street ,Surfers Paradise QLD 4217,QLD 4217,QLD,pest,124.59,Rebate,www.tr_test_supplier.com,1112223338
+tr_testSupplier06@yopmail.com,Supplier06,36 Elliott Street ,Surfers Paradise QLD 4217,QLD 4217,QLD,pest,125.59,Rebate,www.tr_test_supplier.com,1112223339
+tr_testSupplier07@yopmail.com,Supplier07,68 Admiralty Drive ,Surfers Paradise QLD 4217,QLD 4217,QLD,pest,126.59,Rebate,www.tr_test_supplier.com,1112223340
+tr_testSupplier08@yopmail.com,Supplier08,20 Brindisi Avenue ,Surfers Paradise QLD 4217,QLD 4217,QLD,pest,127.59,Rebate,www.tr_test_supplier.com,1112223341
+tr_testSupplier09@yopmail.com,Supplier09,LOT28 Camille Drive ,Strathdickie QLD 4800,QLD 4800,QLD,pest,128.59,Rebate,www.tr_test_supplier.com,1112223342
+tr_testSupplier10@yopmail.com,Supplier10,875 Gregory-Cannonvalley Road ,Strathdickie QLD 4800,QLD 4800,QLD,pest,129.59,Rebate,www.tr_test_supplier.com,1112223343
+tr_testSupplier11@yopmail.com,Supplier11,845 Gregory-Cannonvalley Road ,Strathdickie QLD 4800,QLD 4800,QLD,pest,130.59,Rebate,www.tr_test_supplier.com,1112223344
+tr_testSupplier12@yopmail.com,Supplier12,44 Mountney Road ,Strathdickie QLD 4800,QLD 4800,QLD,pest,131.59,Rebate,www.tr_test_supplier.com,1112223345
+tr_testSupplier13@yopmail.com,Supplier13,34 Discovery Street,Red Hill ACT 2603,ACT 2603,ACT,building,132.59,Rebate,www.tr_test_supplier.com,1112223346
+tr_testSupplier14@yopmail.com,Supplier14,18 Alexander Street ,Red Hill ACT 2603,ACT 2603,ACT,building,133.59,Rebate,www.tr_test_supplier.com,1112223347
+tr_testSupplier15@yopmail.com,Supplier15,21-31 Beagle Street ,Red Hill ACT 2603,ACT 2603,ACT,building,134.59,Rebate,www.tr_test_supplier.com,1112223348
+tr_testSupplier16@yopmail.com,Supplier16,49 Beagle Street,Red Hill ACT 2603,ACT 2603,ACT,building,135.59,Rebate,www.tr_test_supplier.com,1112223349
+tr_testSupplier17@yopmail.com,Supplier17,2/49 Beagle Street ,Red Hill ACT 2603,ACT 2603,ACT,building,136.59,Rebate,www.tr_test_supplier.com,1112223350
+tr_testSupplier18@yopmail.com,Supplier18,9 Borrowdale Street ,Red Hill ACT 2603,ACT 2603,ACT,building,137.59,Rebate,www.tr_test_supplier.com,1112223351
+tr_testSupplier19@yopmail.com,Supplier19,1 Abbott Street ,Yarralumla ACT 2600,ACT 2600,ACT,building,138.59,Rebate,www.tr_test_supplier.com,1112223352
+tr_testSupplier20@yopmail.com,Supplier20,1A Arkana Street ,Yarralumla ACT 2600,ACT 2600,ACT,building,139.59,Rebate,www.tr_test_supplier.com,1112223353
+tr_testSupplier21@yopmail.com,Supplier21,3B Arkana Street ,Yarralumla ACT 2600,ACT 2600,ACT,building,140.59,Rebate,www.tr_test_supplier.com,1112223354
+tr_testSupplier22@yopmail.com,Supplier22,2/12B Banks Street,Yarralumla ACT 2600,ACT 2600,ACT,building,141.59,Rebate,www.tr_test_supplier.com,1112223355
+tr_testSupplier23@yopmail.com,Supplier23,9 Bentham Street ,Yarralumla ACT 2600,ACT 2600,ACT,building,142.59,Rebate,www.tr_test_supplier.com,1112223356
+tr_testSupplier24@yopmail.com,Supplier24,11 Bentham Street ,Yarralumla ACT 2600,ACT 2600,ACT,building,143.59,Rebate,www.tr_test_supplier.com,1112223357
+tr_testSupplier25@yopmail.com,Supplier25,3L/18 Bentham Street ,Yarralumla ACT 2600,ACT 2600,ACT,building,144.59,Rebate,www.tr_test_supplier.com,1112223358
+tr_testSupplier26@yopmail.com,Supplier26,3A/29 Bentham Street,Yarralumla ACT 2600,ACT 2600,ACT,building,145.59,Rebate,www.tr_test_supplier.com,1112223359
+tr_testSupplier27@yopmail.com,Supplier27,5/43B Bentham Street ,Yarralumla ACT 2600,ACT 2600,ACT,building,146.59,Rebate,www.tr_test_supplier.com,1112223360
+tr_testSupplier28@yopmail.com,Supplier28,43B Bentham Street ,Yarralumla ACT 2600,ACT 2600,ACT,building,147.59,Rebate,www.tr_test_supplier.com,1112223361
+tr_testSupplier29@yopmail.com,Supplier29,9 Cambage Street,Yarralumla ACT 2600,ACT 2600,ACT,building,148.59,Rebate,www.tr_test_supplier.com,1112223362
+tr_testSupplier30@yopmail.com,Supplier30,9A Cambage Street ,Yarralumla ACT 2600,ACT 2600,ACT,building,149.59,Rebate,www.tr_test_supplier.com,1112223363
+tr_testSupplier31@yopmail.com,Supplier31,1/9B Cambage Street ,Yarralumla ACT 2600,ACT 2600,ACT,building,150.59,Rebate,www.tr_test_supplier.com,1112223364
+tr_testSupplier32@yopmail.com,Supplier32,2/1-7 Bougainville Street ,Griffith ACT 2603,ACT 2603,ACT,building,151.59,Rebate,www.tr_test_supplier.com,1112223365
+tr_testSupplier33@yopmail.com,Supplier33,18 Packsaddle Road ,Marlow Lagoon NT 830,NT 830,NT,strata,152.59,Rebate,www.tr_test_supplier.com,1112223366
+tr_testSupplier34@yopmail.com,Supplier34,6 Flockhart Drive ,Marlow Lagoon NT 830,NT 830,NT,strata,153.59,Rebate,www.tr_test_supplier.com,1112223367
+tr_testSupplier35@yopmail.com,Supplier35,18 Campfire Court ,Marlow Lagoon NT 830,NT 830,NT,strata,154.59,Rebate,www.tr_test_supplier.com,1112223368
+tr_testSupplier36@yopmail.com,Supplier36,3/12A A'beckett Street ,Prahran VIC 3181,VIC 3181,VIC,pool,155.59,Rebate,www.tr_test_supplier.com,1112223369
+tr_testSupplier37@yopmail.com,Supplier37,5/19 & 21 Leach Highway,Wilson WA 6107,WA 6107,WA,strata,156.59,Rebate,www.tr_test_supplier.com,1112223370
+tr_testSupplier38@yopmail.com,Supplier38,19 & 21 Leach Highway,Wilson WA 6107,WA 6107,WA,strata,157.59,Rebate,www.tr_test_supplier.com,1112223371
+tr_testSupplier39@yopmail.com,Supplier39,1/88 Kirkland Avenue ,Coorparoo QLD 4151,QLD 4151,QLD,pest,158.59,Rebate,www.tr_test_supplier.com,1112223372
+tr_testSupplier40@yopmail.com,Supplier40,1 O'Brien Street ,Charlestown NSW 2290,NSW 2290,NSW,strata,159.59,Rebate,www.tr_test_supplier.com,1112223373
+tr_testSupplier41@yopmail.com,Supplier41,2 Anembo Street,O'Sullivan Beach SA 5166,SA 5166,SA,strata,160.59,Rebate,www.tr_test_supplier.com,1112223374
+tr_testSupplier42@yopmail.com,Supplier42,10 Anembo Street,O'Sullivan Beach SA 5166,SA 5166,SA,strata,161.59,Rebate,www.tr_test_supplier.com,1112223375
+tr_testSupplier43@yopmail.com,Supplier43,6A D'Estrees Bay Road,D'Estrees SA 5223,SA 5223,SA,strata,162.59,Rebate,www.tr_test_supplier.com,1112223376
+tr_testSupplier44@yopmail.com,Supplier44,78 Eighth Avenue ,Joslin SA 5070,SA 5070,SA,strata,163.59,Rebate,www.tr_test_supplier.com,1112223377
+tr_testSupplier45@yopmail.com,Supplier45,1/88 Eighth Avenue  ,Joslin SA 5070,SA 5070,SA,strata,164.59,Rebate,www.tr_test_supplier.com,1112223378
+tr_testSupplier46@yopmail.com,Supplier46,4/88 Eighth Avenue  ,Joslin SA 5070,SA 5070,SA,strata,165.59,Rebate,www.tr_test_supplier.com,1112223379
+tr_testSupplier47@yopmail.com,Supplier47,2/88 Eighth Avenue  ,Joslin SA 5070,SA 5070,SA,strata,166.59,Rebate,www.tr_test_supplier.com,1112223380
+tr_testSupplier48@yopmail.com,Supplier48,3/88 Eighth Avenue ,Joslin SA 5070,SA 5070,SA,strata,167.59,Rebate,www.tr_test_supplier.com,1112223381
+tr_testSupplier49@yopmail.com,Supplier49,2 Acacia Grove ,East Devonport  TAS 7310,TAS 7310,TAS,pool,168.59,Rebate,www.tr_test_supplier.com,1112223382
+tr_testSupplier50@yopmail.com,Supplier50,62 Bel-Air Crescent ,East Devonport  TAS 7310,TAS 7310,TAS,pool,169.59,Rebate,www.tr_test_supplier.com,1112223383
