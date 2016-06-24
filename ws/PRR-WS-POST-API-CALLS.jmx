@@ -118,7 +118,7 @@
           </CSVDataSet>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create Supplier" enabled="false">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create Supplier" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -161,7 +161,7 @@
           <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Create Supplier Data Set" enabled="true">
             <stringProp name="delimiter">,</stringProp>
             <stringProp name="fileEncoding"></stringProp>
-            <stringProp name="filename">csv/user-data-set.csv</stringProp>
+            <stringProp name="filename">csv/supplier-data-set.csv</stringProp>
             <boolProp name="quotedData">false</boolProp>
             <boolProp name="recycle">true</boolProp>
             <stringProp name="shareMode">shareMode.all</stringProp>
@@ -177,21 +177,21 @@
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-    &quot;inspectionType&quot;  : &quot;${inspectionType}&quot;,&#xd;
+    &quot;inspectionType&quot;  : &quot;${inspection_type}&quot;,&#xd;
     &quot;rpid&quot;            : ${rpid},&#xd;
     &quot;address&quot;         : &quot;${address}&quot;,&#xd;
-    &quot;inspectionDate&quot;  : &quot;${address}&quot;,&#xd;
+    &quot;inspectionDate&quot;  : &quot;${inspection_date}&quot;,&#xd;
     &quot;status&quot;          : &quot;${status}&quot;,&#xd;
-    &quot;resaleModel&quot;     : &quot;${resaleModel}&quot;,&#xd;
+    &quot;resaleModel&quot;     : &quot;${resale_model}&quot;,&#xd;
     &quot;price&quot;           : ${price},&#xd;
     &quot;supplierDetails&quot; : {&#xd;
-      &quot;supplierId&quot;     : ${supplierId},&#xd;
-      &quot;supplierName&quot;   : &quot;${supplierName}&quot;,&#xd;
-      &quot;emailAddress&quot;   : &quot;${emailAddress}&quot;,&#xd;
-      &quot;inspectorName&quot;  : &quot;${inspectorName}&quot;,&#xd;
-      &quot;phoneNumber&quot;    : &quot;${phoneNumber}&quot;&#xd;
+      &quot;supplierId&quot;     : ${supplier_id},&#xd;
+      &quot;supplierName&quot;   : &quot;${supplier_name}&quot;,&#xd;
+      &quot;emailAddress&quot;   : &quot;${supplier_email_address}&quot;,&#xd;
+      &quot;inspectorName&quot;  : &quot;${inspector_name}&quot;,&#xd;
+      &quot;phoneNumber&quot;    : &quot;${phone_number}&quot;&#xd;
     },&#xd;
-    &quot;createdDate&quot;    : &quot;${createdDate}&quot;&#xd;
+    &quot;createdDate&quot;    : &quot;${created_date}&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -203,7 +203,7 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
           <stringProp name="HTTPSampler.protocol">http</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">users/${email_address}/reports</stringProp>
+          <stringProp name="HTTPSampler.path">ttsvr/api/users/${user_email_address}/reports</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -214,10 +214,10 @@
           <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Create Supplier Data Set" enabled="true">
+          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Add Report Data Set" enabled="true">
             <stringProp name="delimiter">,</stringProp>
             <stringProp name="fileEncoding"></stringProp>
-            <stringProp name="filename">csv/login-data-set.csv</stringProp>
+            <stringProp name="filename">csv/report-data-set.csv</stringProp>
             <boolProp name="quotedData">false</boolProp>
             <boolProp name="recycle">true</boolProp>
             <stringProp name="shareMode">shareMode.all</stringProp>
